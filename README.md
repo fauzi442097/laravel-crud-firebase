@@ -23,4 +23,6 @@ $ composer update
 
 <br>
 Start server via Terminal
+```
 $ php -S localhost:8000 public/index.php
+```
