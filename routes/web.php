@@ -27,4 +27,9 @@ $router->group(['prefix' => '/api/v1'], function () use ($router) {
     $router->post('/users', 'UserController@store');
     $router->delete('/users/{key}', 'UserController@delete');
     $router->put('/users', 'UserController@update');
+
+    $router->post('/register', 'AuthController@register');
+    $router->post('/login', 'AuthController@login');
+
+    $router->get('/filterData', 'AuthController@filterData');
 });

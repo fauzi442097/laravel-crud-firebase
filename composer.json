@@ -9,6 +9,7 @@
         "anik/form-request": "^4.5",
         "darkaonline/swagger-lume": "8.*",
         "flipbox/lumen-generator": "^9.1",
+        "guzzlehttp/guzzle": "^7.4",
         "kreait/laravel-firebase": "^4.1",
         "laravel/lumen-framework": "^8.3.1",
         "sentry/sentry-laravel": "^2.12"

@@ -12,6 +12,7 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 [Lumen Generator](https://github.com/flipboxstudio/lumen-generator) : To provide Laravel code generator <br>
 [Sentry](https://docs.sentry.io/platforms/php/guides/laravel/) : for monitoring error in application <br>
 [kreait/laravel-firebase](https://github.com/kreait/laravel-firebase) : A Laravel package for the Firebase PHP Admin SDK.
+[Guzzle](https://github.com/guzzle/guzzle) : for integration with another API
 
 ## Instalation
 
@@ -24,5 +25,5 @@ $ composer update
 Start server via Terminal
 
 ```
-$ php -S localhost:8000 public/index.php
+$ php artisan serve
 ```
