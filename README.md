@@ -11,7 +11,7 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 [SwaggerLume](https://github.com/DarkaOnLine/SwaggerLume) : for API Documentation <br>
 [Lumen Generator](https://github.com/flipboxstudio/lumen-generator) : To provide Laravel code generator <br>
 [Sentry](https://docs.sentry.io/platforms/php/guides/laravel/) : for monitoring error in application <br>
-[kreait/laravel-firebase](https://github.com/kreait/laravel-firebase) : A Laravel package for the Firebase PHP Admin SDK.
+[kreait/laravel-firebase](https://github.com/kreait/laravel-firebase) : A Laravel package for the Firebase PHP Admin SDK. <br>
 [Guzzle](https://github.com/guzzle/guzzle) : for integration with another API
 
 ## Instalation
