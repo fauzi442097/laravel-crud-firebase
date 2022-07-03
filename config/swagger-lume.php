@@ -7,7 +7,7 @@ return [
         | Edit to set the api's title
         |--------------------------------------------------------------------------
          */
-        'title' => 'API Lumen CRUD Mongodb',
+        'title' => 'Swagger Lume API',
     ],
 
     'routes' => [
@@ -141,14 +141,15 @@ return [
                 ],
             ],
         ],
-        */],
+        */
+    ],
 
     /*
     |--------------------------------------------------------------------------
     | Turn this off to remove swagger generation on production
     |--------------------------------------------------------------------------
      */
-    'generate_always' => env('SWAGGER_GENERATE_ALWAYS', true),
+    'generate_always' => env('SWAGGER_GENERATE_ALWAYS', false),
 
     /*
     |--------------------------------------------------------------------------

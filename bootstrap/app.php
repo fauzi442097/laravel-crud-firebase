@@ -26,6 +26,8 @@ $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
 
+$app->configure('swagger-lume');
+
 $app->register(\Anik\Form\FormRequestServiceProvider::class);
 $app->register(Kreait\Laravel\Firebase\ServiceProvider::class);
 
@@ -67,7 +69,6 @@ $app->singleton(
 
 $app->configure('app');
 $app->configure('database');
-$app->configure('swagger-lume');
 $app->configure('firebase');
 
 

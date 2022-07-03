@@ -25,5 +25,11 @@ $ composer update
 Start server via Terminal
 
 ```
+php -S localhost:8000 public/index.php
+```
+
+OR
+
+```
 $ php artisan serve
 ```
